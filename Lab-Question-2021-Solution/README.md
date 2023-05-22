@@ -1,4 +1,4 @@
-# Web technology lab code solution
+# Web technology lab code solution(2021)
 The course instructed by Md. Rakib Hasan Sir.
 
 ## Help?
@@ -6,14 +6,7 @@ The course instructed by Md. Rakib Hasan Sir.
 - These codes are fully tested and you can customize on your own.
 - If you find any faults, you can create an issue. 
 
-
-## Solution
-
-
-<a href="./Lab-Question-2020-Solution/"> Lab-Question-2020-Solution </a>
-
-<hr>
-
-<a href="./Lab-Question-2021-Solution/"> Lab-Question-2021-Solution </a>
-
-    
+## Question Paper
+![part 1](./Question-Part-1.jpg)
+![part 2](./Question-Part-2.jpg)
+![part 3](./Question-Part-3.jpg)
