@@ -1,4 +1,4 @@
-# Web technology lab code solution(2020)
+# Web technology lab code solution
 The course instructed by Md. Rakib Hasan Sir.
 
 ## Help?
