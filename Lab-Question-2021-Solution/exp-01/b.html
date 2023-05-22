@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Functions</title>
+  <script>
+    function findLeftMostVowel(str) {
+      var vowels = ['a', 'e', 'i', 'o', 'u'];
+      for (var i = 0; i < str.length; i++) {
+        if (vowels.includes(str[i].toLowerCase())) {
+          return i;
+        }
+      }
+      return -1; // If no vowel found
+    }
+    
+    function reverseDigits(num) {
+      var reversedNum = parseInt(num.toString().split('').reverse().join(''));
+      return reversedNum;
+    }
+  </script>
+</head>
+<body>
+  <h1>JavaScript Functions</h1>
+  
+  <h2>Find Left Most Vowel</h2>
+  <p>Enter a string:</p>
+  <input type="text" id="vowelInput">
+  <button onclick="findLeftMostVowelHandler()">Find Left Most Vowel</button>
+  <p id="vowelResult"></p>
+  
+  <h2>Reverse Digits</h2>
+  <p>Enter a number:</p>
+  <input type="number" id="reverseInput">
+  <button onclick="reverseDigitsHandler()">Reverse Digits</button>
+  <p id="reverseResult"></p>
+  
+  <script>
+    function findLeftMostVowelHandler() {
+      var input = document.getElementById('vowelInput').value;
+      var result = findLeftMostVowel(input);
+      document.getElementById('vowelResult').innerText = 'Position of the left most vowel: ' + result;
+    }
+    
+    function reverseDigitsHandler() {
+      var input = document.getElementById('reverseInput').value;
+      var result = reverseDigits(input);
+      document.getElementById('reverseResult').innerText = 'Number with digits in reverse order: ' + result;
+    }
+  </script>
+</body>
+</html>
