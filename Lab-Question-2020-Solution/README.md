@@ -6,14 +6,6 @@ The course instructed by Md. Rakib Hasan Sir.
 - These codes are fully tested and you can customize on your own.
 - If you find any faults, you can create an issue. 
 
-
-## Solution
-
-
-<a href="./Lab-Question-2020-Solution/"> Lab-Question-2020-Solution </a>
-
-<hr>
-
-<a href="./Lab-Question-2021-Solution/"> Lab-Question-2021-Solution </a>
-
-    
+## Question Paper
+![part 1](/exp-01_to_exp-04.png)
+![part 2](/exp-05_to_exp-09.png)
